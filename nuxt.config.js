@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+  generate: {
+    fallback: true
+  },
   env: {
     network: process.env.NETWORK,
     zilliqaRpcUrl: process.env.ZILLIQA_RPC_URL,
@@ -38,7 +42,6 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/content']
-
+  modules: ['@nuxt/content'],
   // Build Configuration: https://go.nuxtjs.dev/config-build
 }
