@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-24">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <div class="text-center pb-12 md:pb-16">
           <h1
@@ -64,7 +64,7 @@
                     w-full
                     sm:w-auto sm:ml-4
                   "
-                  to="articles/3-1-fundamentals-of-programming"
+                  to="articles/4-1-fundamentals-of-programming"
                   >Skip to the start</NuxtLink
                 >
               </div>

@@ -15,7 +15,11 @@
           
           class="py-1"
         >
+
           <h4 class="h4 "><a class="text-blue-600 dark:text-blue-300">{{article.unit}} </a> {{ article.title }}</h4>
+          <li class="list-disc" v-for="link of article.toc" :key="link.id">
+            <NuxtLink v-if="link.depth === 2" class="font-light" :class="{ 'text-lg font-medium py-2': link.depth === 2, 'hidden': link.depth === 3 }" :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+          </li>
           <p class="mb-2 text-gray-700 dark:text-gray-200 font-light">{{article.description}}</p>
         </div>
       </div>
@@ -35,7 +39,6 @@ export default {
   methods: {
     async getAll () {
       this.articles = await this.$content(`articles`)
-        .only(['title', 'slug', 'unit', 'description'])
         .sortBy('unit')
         .fetch()
         console.log("doing")

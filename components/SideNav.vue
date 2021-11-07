@@ -1,19 +1,23 @@
 <template>
-    <div class="bg-gray-200 dark:bg-gray-800 rounded-xl">
-        <div class="grid p-4 divide-y-2 divide-gray-300 dark:divide-gray-700 overflow-y-scroll">
+    <aside class="h-screen lg:sticky lg:top-16 overflow-y-auto lg:h-auto lg:max-h-(screen-16)">
+        <ul class="p-4 lg:py-8 lg:pl-0 lg:pr-8">
             <NuxtLink v-for="article, index in articles"
             :key="index"
             :to="'/articles/' + article.slug"
             class="py-1"
             >
-                <h3 class="text-xs uppercase"><a class="text-blue-600 dark:text-blue-300">{{
+                <h3 class="text-md text-blue-600 dark:text-blue-300">{{
                     article.unit
-                }}</a> > {{ article.title }}</h3>
+                }}</h3>
+                <h4 class="p-2 text-sm font-light">{{ article.title }}</h4>
                 
             </NuxtLink>
-        </div>
-    </div>
+        </ul>
+    </aside>
 </template>
+
+
+
 
 <script>
 export default {
