@@ -1,21 +1,24 @@
 <template>
   <div
     class="
+    z-50
       fixed
       w-full
       p-2
       bg-gray-100
       dark:bg-gray-800 dark:bg-opacity-75
-      bg-opacity-75
+       bg-opacity-25
       backdrop-filter backdrop-blur-sm
-      
+
       border-b-2
       border-gray-200
       dark:border-gray-700
       border-opacity-30
     "
   >
-  <div class="container
+  <div class="
+
+  container
       mx-auto flex
       justify-center
       px-4

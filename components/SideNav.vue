@@ -1,18 +1,18 @@
 <template>
-    <aside class="h-screen lg:sticky lg:top-16 overflow-y-auto lg:h-auto lg:max-h-(screen-16)">
-        <ul class="p-4 lg:py-8 lg:pl-0 lg:pr-8">
+    <aside class=" pt-12 h-screen lg:sticky lg:top-16 overflow-y-auto lg:h-auto lg:max-h-(screen-16)">
+        <div class="p-4 space-y-2 lg:py-8 lg:pl-0 lg:pr-8">
             <NuxtLink v-for="article, index in articles"
             :key="index"
             :to="'/articles/' + article.slug"
-            class="py-1"
+            class="py-4 mb-2"
             >
                 <h3 class="text-md text-blue-600 dark:text-blue-300">{{
                     article.unit
-                }}</h3>
-                <h4 class="p-2 text-sm font-light">{{ article.title }}</h4>
-                
+                }}<a class="p-2 text-gray-800 dark:text-gray-200 text-sm ">{{ article.title }}</a></h3>
+
+
             </NuxtLink>
-        </ul>
+        </div>
     </aside>
 </template>
 
@@ -37,7 +37,7 @@ export default {
   },
   mounted () {
       this.performSearch()
-      
+
   }
 }
 </script>

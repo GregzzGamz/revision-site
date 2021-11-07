@@ -5,7 +5,82 @@ description: Logic gates - NOT, AND, OR, XOR, NAND, NOR, truth tables, boolean e
 ---
 
 ## 4.6.4 Logic Gates
-### NOT
+
+
+#### NOT Gate
+A not gate is used to invert the input signal
+<square-image class="w-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/NOT_ANSI_Labelled.svg/120px-NOT_ANSI_Labelled.svg.png"></square-image>
+
+<table class="table-fixed">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Views</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Intro to CSS</td>
+      <td>Adam</td>
+      <td>858</td>
+    </tr>
+    <tr class="bg-emerald-200">
+      <td>A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
+      <td>Adam</td>
+      <td>112</td>
+    </tr>
+    <tr>
+      <td>Intro to JavaScript</td>
+      <td>Chris</td>
+      <td>1,280</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="flex flex-row">
+  <square-image class="w-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/NOT_ANSI_Labelled.svg/120px-NOT_ANSI_Labelled.svg.png"></square-image>
+    <div>
+      <h4>AND Gate</h4>
+      <p>AND gates have two inputs, say A and B. The result Q is A * B</p>
+    </div>
+</div>
+
+<div class="flex flex-row">
+  <square-image class="w-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/OR_ANSI_Labelled.svg/120px-OR_ANSI_Labelled.svg.png"></square-image>
+    <div>
+      <h4>OR Gate</h4>
+      <p>In the same way that AND multiplies its inputs, OR adds them together</p>
+    </div>
+</div>
+
+<div class="flex flex-row">
+  <square-image class="w-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/XOR_ANSI_Labelled.svg/120px-XOR_ANSI_Labelled.svg.png"></square-image>
+    <div>
+      <h4>XOR Gate</h4>
+      <p>The XOR gate’s full name is exclusively or and it outputs TRUE when strictly one of its
+inputs is TRUE</p>
+    </div>
+</div>
+
+<div class="flex flex-row">
+  <square-image class="w-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NAND_ANSI_Labelled.svg/120px-NAND_ANSI_Labelled.svg.png"></square-image>
+    <div>
+      <h4>NAND Gate</h4>
+      <p>NAND is short for NOT AND</p>
+    </div>
+</div>
+
+<div class="flex flex-row">
+  <square-image class="grid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NOR_ANSI_Labelled.svg/120px-NOR_ANSI_Labelled.svg.png"></square-image>
+    <div>
+      <h4>NOR Gate</h4>
+      <p>NOR, short for NOT OR is a combination of the two logic gates NOT and OR</p>
+    </div>
+</div>
+
+
 Not gates invert the input signal
 Not gates invert the input signal
 Not gates invert the input signal
@@ -13,6 +88,7 @@ Not gates invert the input signal
 Not gates invert the input signal
 Not gates invert the input signal
 Not gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signalNot gates invert the input signal
+
 ## 4.6.5 Boolean algebra
 
 Static Hosting
@@ -23,7 +99,7 @@ For static sites the target of static needs to be added to your nuxt.config file
 
 nuxt.config.js
 export default {
-  target: 'static' // default is 'server'
+target: 'static' // default is 'server'
 }
 
 Running nuxt dev with the static target will improve the developer experience:
