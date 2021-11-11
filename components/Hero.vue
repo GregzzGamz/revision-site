@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-48 items-center">
-      <div class="pt-32 pb-12 md:pt-40 md:pb-20">
+    <div class="flex h-screen max-w-6xl mx-auto px-4 sm:px-6 py-auto items-center">
+      <div class="pt-32 pb-12 m-auto  md:pt-40 md:pb-20">
         <div class="text-center pb-12 md:pb-16">
           <h1
             class="
