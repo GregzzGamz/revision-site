@@ -36,7 +36,7 @@ NAND is short for NOT AND
 OR, short for NOT OR is a combination of the two logic gates NOT and OR
 <square-image class="w-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NOR_ANSI_Labelled.svg/120px-NOR_ANSI_Labelled.svg.png"></square-image>
 
-
+<iframe src="https://drive.google.com/file/d/1mTvnvnKP_KZKpYjZ40EAocj9SsR8nfc9/preview" width="640" height="480" allow="autoplay"></iframe>
 
 <div class="flex flex-col mb-16">
     <div>
