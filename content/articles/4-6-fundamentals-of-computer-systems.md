@@ -4,6 +4,36 @@ unit: 4.6
 description: Logic gates - NOT, AND, OR, XOR, NAND, NOR, truth tables, boolean expressions, adders, half adders
 ---
 
+## 4.6.2 Classification of Programming Languages
+
+Low level languages are languages that provides little or no abstraction from a computer's instruction set architecture and examples of it are machine code and assembly language.
+<br><br>
+
+#### Advantages of this are:
+Machine language makes fast and efficient use of the computer. It requires no translator to translate the code. It is directly understood by the computer.
+Disadvantages of this are:
+All operation codes have to be remembered.
+All memory addresses have to be remembered.
+High level languages are programming languages with strong abstraction from the details of the computer.
+<br><br>
+
+#### Advantages of this are:
+
+It is easier to read, write and maintain.
+
+Most people code in high level languages so it's easier as other people will be able to understand it aswell<br>
+<br>
+
+#### Disadvantages of this are:
+
+Slow execution as code must be translated.
+Accessing and controlling hardware directly is difficult
+
+An imperative language is any programming language that consists of a series of commands, typically assigning values to objects; a procedural language.
+<br/>
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/yORSZkhNpZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 4.6.4 Logic Gates
 
 
@@ -140,3 +170,4 @@ A . (A + B) = A
 !!B = B
 
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/41Xa1hDl5K0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
